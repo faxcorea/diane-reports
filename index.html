@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Diane-Reports는 개인용 Google Drive 문서 분석 및 승인 기반 업무 보조 도구입니다.">
+  <title>Diane-Reports | 개인용 문서 분석 도구</title>
+  <style>
+    :root{color-scheme:light;--paper:#faf9f5;--ink:#202c27;--muted:#55615a;--line:#d8ded7;--accent:#24583f}
+    *{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:"Malgun Gothic","Apple SD Gothic Neo","Noto Sans KR",sans-serif;font-size:17px;line-height:1.85;word-break:keep-all;overflow-wrap:anywhere}
+    .wrap{max-width:850px;margin:auto;padding:0 26px}header{border-bottom:1px solid var(--line)}header .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px;padding-top:18px;padding-bottom:18px;flex-wrap:wrap}.brand{font-weight:700;letter-spacing:.02em;text-decoration:none;color:var(--ink)}nav a{display:inline-flex;align-items:center;min-height:44px;font-size:15px}
+    a{color:var(--accent);text-underline-offset:4px}a:focus-visible{outline:3px solid var(--accent);outline-offset:5px}.skip{position:absolute;top:-100px;left:15px;background:white;padding:12px}.skip:focus{top:10px}main{padding-top:50px;padding-bottom:45px}.eyebrow{font-size:14px;font-weight:700;letter-spacing:.08em;color:var(--muted)}h1{font-family:Georgia,"Batang",serif;font-size:clamp(34px,6vw,50px);line-height:1.2;margin:16px 0 22px}h2{font-size:22px;line-height:1.5;margin:0 0 12px}.lead{font-size:20px;line-height:1.8;max-width:37em}section{margin-top:34px;padding-top:26px;border-top:1px solid var(--line)}p{margin:0 0 14px}ul{padding-left:24px;margin:12px 0}li{margin:8px 0}.status{font-size:15px;color:var(--muted)}footer{border-top:1px solid var(--line);color:var(--muted);font-size:14px;padding:22px 0 32px}.links{display:flex;gap:22px;flex-wrap:wrap}.links a{display:inline-flex;align-items:center;min-height:44px}@media(max-width:480px){.wrap{padding-left:20px;padding-right:20px}main{padding-top:32px}.lead{font-size:18px}}@media print{body{background:white;font-size:12pt}nav,.skip{display:none}main{padding-top:20px}}
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">본문으로 이동</a>
+  <header><div class="wrap"><a class="brand" href="./index.html">Diane-Reports</a><nav aria-label="주 메뉴"><a href="./privacy.html">개인정보처리방침</a></nav></div></header>
+  <main id="main" class="wrap">
+    <p class="eyebrow">개인용 문서 분석 · 업무 보조</p>
+    <h1>Diane-Reports</h1>
+    <p class="lead">소유자가 승인한 Google Drive 자료를 읽고 분석하며, 별도로 승인받은 문서 수정 작업을 지원하기 위한 개인용 도구입니다.</p>
+    <p>일반 사용자를 모집하는 공개 서비스가 아닙니다. 이 홈페이지는 앱의 용도와 데이터 처리 방식을 안내하며, Google 로그인이나 파일 업로드를 받지 않습니다.</p>
+    <section aria-labelledby="purpose"><h2 id="purpose">무엇을 위한 도구인가요?</h2>
+      <ul><li>Google Drive의 보고서·문서를 조회하고, 필요한 자료를 비교·분석합니다.</li><li>분석 근거와 검증 결과를 정리해 업무 판단을 보조합니다.</li><li>수정할 파일과 변경안을 확인받은 후, 승인된 범위의 문서 수정 작업을 지원하도록 구성합니다.</li><li>별도로 Gmail 기능을 승인한 경우, 메일 조회와 최종 승인 후 발송 업무를 보조할 수 있습니다.</li></ul>
+      <p class="status">현재 Drive 연결과 읽기·수정 권한을 재설정하는 과정에 있습니다. 이 설명이 모든 기능의 활성화나 연결 성공을 뜻하지는 않습니다.</p>
+    </section>
+    <section aria-labelledby="approval"><h2 id="approval">권한과 작업 승인은 별개입니다</h2>
+      <p>Google 계정에서 기술적인 접근 권한을 부여하더라도 모든 문서를 임의로 수정하는 것은 아닙니다. 문서 수정은 대상과 변경안을 확인받고 명시적인 승인을 얻은 뒤 수행하는 것을 운영 원칙으로 합니다.</p>
+      <p>삭제·이동·공유 설정 변경은 별도 승인이 필요합니다. 이메일도 수신자·본문·첨부를 검토받고 최종 발송 지시를 받은 뒤에만 보냅니다.</p>
+    </section>
+    <section aria-labelledby="data"><h2 id="data">문서는 공개 홈페이지에 게시하지 않습니다</h2>
+      <p>이 사이트에는 앱 설명과 개인정보처리방침만 게시합니다. Drive 원문, 메일 내용, 분석 결과와 인증정보는 공개 저장소나 이 홈페이지에 올리지 않습니다.</p>
+      <p>업무 처리에는 서버 저장, 외부 AI 서비스 및 Telegram 전달이 포함될 수 있습니다. 처리하는 정보와 접근 철회 방법은 <a href="./privacy.html">개인정보처리방침</a>에서 확인할 수 있습니다.</p>
+    </section>
+    <section aria-labelledby="contact"><h2 id="contact">문의</h2><p>앱 운영 및 개인정보 관련 문의: <a href="mailto:faxcorea@gmail.com">faxcorea@gmail.com</a></p><p class="status">문의 메일에 비밀번호·OAuth 토큰·인증코드를 포함하지 마세요.</p></section>
+  </main>
+  <footer><div class="wrap"><p>Diane-Reports · 운영 계정: faxcorea</p><div class="links"><a href="./privacy.html">개인정보처리방침</a><a href="mailto:faxcorea@gmail.com">연락처</a></div><p>문서 작성일: <time datetime="2026-11-07">2026년 11월 7일</time></p></div></footer>
+</body>
+</html>
